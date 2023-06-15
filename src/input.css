@@ -2,12 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer {
+@layer components {
     .nav-link {
         @apply font-medium text-primary whitespace-nowrap hover:bg-light-dark py-1 px-2 text-sm
     }
 
-    .container {
-        @apply px-4
+    .link {
+        @apply border-b-[1px] transition-all ease-linear duration-200 hover:border-b-[2px]
     }
+}
+
+@font-face {
+    font-family: Gotham-Book;
+    src: url("../fonts/GothamSSm-Book_Web.woff2") format("opentype");
+}
+
+@font-face {
+    font-family: Gotham-Bold;
+    src: url("../fonts/GothamSSm-Bold_Web.woff2") format("opentype");
+}
+
+@font-face {
+    font-family: Gotham-Light;
+    src: url("../fonts/GothamSSm-Light_Web.woff2") format("opentype");
+}
+
+@font-face {
+    font-family: Gotham-Medium;
+    src: url("../fonts/GothamSSm-Medium_Web.woff2") format("opentype");
 }

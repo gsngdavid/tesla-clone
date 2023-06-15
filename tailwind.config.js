@@ -7,6 +7,14 @@ module.exports = {
         "primary": "#171a20",
         "light-dark": "rgba(0, 0, 0, 0.15)",
         "graysh-light": "#e2e3e3",
+        "light-black": "#393c41",
+        "light-white": "#eee"
+      },
+      fontFamily: {
+        "gotham-book": "Gotham-Book",
+        "gotham-light": "Gotham-Light",
+        "gotham-bold": "Gotham-Bold",
+        "gotham-medium": "Gotham-Medium"
       },
       backgroundImage: {
         "top-ad": "radial-gradient(54.97% 272.54% at 27.36% -134.72%,rgba(108,148,255,.92) 0,rgba(0,0,0,.92) 100%)",
